@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     width: 15%;
     /* background-color: #333; */
-    background: linear-gradient(#333, #808080);
+    background: linear-gradient(#436850, #ADBC9F);
     text-align: left;
     padding-top: 10px;
     position: fixed;
@@ -59,7 +59,7 @@ body {
 }
 
 .menu-list li:hover {
-    background-color: #555;
+    background-color: #436850;
     transition: color 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
 }
@@ -182,7 +182,7 @@ project-detail a {
     width: 15%;
     height: auto;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid #ADBC9F;
     background-position: center;
     background-size: cover;
     margin: 10px 20px;
