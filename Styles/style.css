@@ -83,6 +83,33 @@ body {
     width: 2.5rem;
 }
 
+/* contact button */
+.contact-button {
+    display: flex;
+    align-items: center;
+    background-color: #75ab70; /* Background color */
+    border: none; /* No border */
+    color: #ffffff; /* Text color */
+    padding: 10px 15px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.4s, color 0.4s; /* Transition effect */
+  }
+  
+  .contact-button:hover {
+    background-color: #45a049; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+  }
+  
+  .material-symbols-outlined {
+    margin-right: 10px;
+  }
+  
+
 /* main */
 .main-section {
     margin-left: 15%;
@@ -179,8 +206,8 @@ project-detail a {
     font-size: 16px;
 }
 .about-me-image {
-    width: 15%;
-    height: auto;
+    width: 18%;
+    height: 18%; /* or auto */
     border-radius: 50%;
     border: 5px solid #ADBC9F;
     background-position: center;
@@ -206,6 +233,12 @@ project-detail a {
     color: #666;
     font-size: x-large;
     margin-top: 10px;
+}
+
+#pfAboutLocation { 
+    color: #666; 
+    font-size: large; 
+    margin-top: 10px; 
 }
 
 .about-description {

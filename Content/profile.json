@@ -2,6 +2,7 @@
 "About": {
   "Name": "Vy La",
   "Currently": "Computer Science Student",
+  "Location": "Seattle, WA",
   "Headshot": "vy-headshot.jpg",
   "Thumbnail": "vy-portrait.webp",
   "AboutText": "Hi, I am Vy La. I am a passionate computer science student with a keen interest in software development and programming. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of computer science, with a particular focus on C++ programming.<br><br>I enjoy tackling challenging programming projects and I thrive in collaborative environments where I can contribute my expertise and learn from my peers.<br><br>Beyond the classroom, I actively engage in extracurricular activities related to computer science, including hackathons, coding competitions, and open-source contributions. I believe in the importance of continuous learning and seek out opportunities to explore new technologies and methodologies."
@@ -14,22 +15,23 @@
   "GitHub": "https://github.com/lavy-spu"
 },
 "Experience": {
-  "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
+  "ExperienceText": "I have experience working in a variety of roles, including software development, technical support, and media production. I have worked on several programming projects, including developing a front-end HTTP library and creating a web-based chat application. I have also provided technical support to faculty and students at Seattle Pacific University, assisting with classroom technology, software support, and media production projects.",
   "School": "Seattle Pacific University",
   "Major": "Computer Science",
   "Graduation": "June 2025",
-  "EducationText": "Use this to add some narrative to your education section",
+  "EducationText": "",
   "Employment": "Seattle Pacific University",
-  "Role": "Computer Science Lab Assistant",
-  "EmploymentText": "Use this to add some narrative to your employment section",
+  "Role": "Education, Technology & Media Assistant",
+  "EmploymentText": "I assist the Education, Technology & Media team in providing technical support to faculty and students. I help maintain and troubleshoot classroom technology, provide software support, and assist with media production projects.",
   "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
-  "SkillsText": "Use this to add some narrative to your skills section",
-  "Resume": "vy-resume.pdf"  
+  "SkillsText": "", 
+  "Resume": "vy-resume.pdf",  
+  "SchoolLink": "https://spu.edu"
 },
 "Project1": {
-    "Title": "Interesting Project 1",
-    "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
-    "GitHubRepo": "https://github.com",
+    "Title": "HTTP Library Project",
+    "Desc": "Front end library that accepts HTTP requests from an HTML form.<br><br>It has a GitHub repo and more details shown in screenshots.",
+    "GitHubRepo": "https://github.com/TSmedes/HTTP-library",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },

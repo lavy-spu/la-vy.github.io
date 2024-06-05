@@ -18,7 +18,7 @@ function updateHTML(configData) {
   document.querySelector("#pfExpText").innerHTML = configData.Experience.ExperienceText;
 
   document.querySelector("#expEdu>h2").innerHTML = "Education";
-  document.querySelector("#pfSchool").innerHTML = configData.Experience.School;
+  document.querySelector("#pfSchool").innerHTML = `📍 <a href="${configData.Experience.SchoolLink}" target="_blank">${configData.Experience.School}</a>`;
   document.querySelector("#pfMajor").innerHTML = configData.Experience.Major;
   document.querySelector("#pfGraduation").innerHTML = configData.Experience.Graduation;
   document.querySelector("#pfEducationText").innerHTML = configData.Experience.EducationText;

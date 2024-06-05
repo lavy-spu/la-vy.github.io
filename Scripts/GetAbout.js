@@ -18,6 +18,7 @@ function updateHTML(configData) {
   document.querySelector("#pfAboutName").innerHTML = configData.About.Name;
   document.querySelector("#pfAboutTitle").innerHTML = configData.About.Currently;
   document.querySelector("#pfAboutDesc").innerHTML = configData.About.AboutText;
+  document.querySelector("#pfAboutLocation").innerHTML = configData.About.Location;
   document.querySelector("#pfEmail").href = "mailto:".concat(configData.Contact.EMail);
   document.querySelector("#pfEmail").innerHTML = configData.Contact.EMail;
   if (configData.Contact.Phone) {
@@ -27,3 +28,10 @@ function updateHTML(configData) {
     document.querySelector("#elPhone").style.display = "none";
   }
 }
+
+// Add the event listener for the "Say hi!" button
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('contactButton').onclick = () => {
+    window.location.href = "mailto:lav@spu.edu";
+  };
+});
