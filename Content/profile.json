@@ -32,21 +32,21 @@
     "Title": "HTTP Library Project",
     "Desc": "Front end library that accepts HTTP requests from an HTML form.<br><br>It has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com/TSmedes/HTTP-library",
-    "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
+    "MainImage": "HTTP-Library-front.png",
+    "DetailImages": ["HTTP-Library.png"]
   },
   "Project2": {
-    "Title": "Interesting Project 2",
-    "Desc": "This is a description of Project Two.<br><br>It also has a GitHub repo and more details shown in screenshots.",
-    "GitHubRepo": "https://github.com",
-    "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
+    "Title": "Web Crawler Project",
+    "Desc": "A web crawler application using Python to creates a web-link graphs and finds the Closeness Centrality for each node. It also has a GitHub repo and more details shown in screenshots.",
+    "GitHubRepo": "https://github.com/csc3430-winter2024/web-crawler-term-and-graph-10",
+    "MainImage": "Web-Crawler.png",
+    "DetailImages": []
   },
   "Project3": {
-    "Title": "Interesting Project 3",
-    "Desc": "This is a description of Project Three.<br><br>It does not have a GitHub repo or any additional screenshots.",
+    "Title": "",
+    "Desc": "",
     "GitHubRepo": "",
-    "MainImage": "P3Main.png",
+    "MainImage": "",
     "DetailImages": []
   },
   "Project4": {
