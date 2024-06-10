@@ -29,24 +29,24 @@
   "SchoolLink": "https://spu.edu"
 },
 "Project1": {
-    "Title": "HTTP Library Project",
+    "Title": "HTTP Library",
     "Desc": "Front end library that accepts HTTP requests from an HTML form.<br><br>It has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com/TSmedes/HTTP-library",
     "MainImage": "HTTP-Library-front.png",
     "DetailImages": ["HTTP-Library.png"]
   },
   "Project2": {
-    "Title": "Web Crawler Project",
+    "Title": "Web Crawler",
     "Desc": "A web crawler application using Python to creates a web-link graphs and finds the Closeness Centrality for each node. It also has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com/csc3430-winter2024/web-crawler-term-and-graph-10",
     "MainImage": "Web-Crawler.png",
     "DetailImages": []
   },
   "Project3": {
-    "Title": "",
-    "Desc": "",
-    "GitHubRepo": "",
-    "MainImage": "",
+    "Title": "Task Manager",
+    "Desc": "A full stack web application that manages tasks from a database. Featuring Add, Delete, and Complete task functionalities. It also has a GitHub repo and more details shown in screenshots.",
+    "GitHubRepo": "https://github.com/TSmedes/task-manager",
+    "MainImage": "task-manager-demo.png",
     "DetailImages": []
   },
   "Project4": {
